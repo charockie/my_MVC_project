@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '/models/countries.php';
+require __DIR__ . '/../models/countries.php';
 
 class Controller_main extends controller{
 
@@ -7,7 +7,6 @@ class Controller_main extends controller{
 
         $countries = new countries();
         $data = $countries->selectAll();
-//        var_dump($db);die;
 
         $this->view->generate('myview.php', $data);
     }

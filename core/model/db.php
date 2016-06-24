@@ -11,7 +11,7 @@ class db {
     
     protected static $_instance;
     
-    public static function getInstance($conf = null)
+    public static function getInstance($conf = [])
     {
         if (self::$_instance === null) {
             self::$_instance = new self($conf);
@@ -19,7 +19,7 @@ class db {
         return self::$_instance;
     }
 
-    protected function __construct($conf = null)
+    protected function __construct($conf = [])
     {
         foreach ($conf as $key => $value) {
             $this->$key = $value;

@@ -1,6 +1,6 @@
 <?php
 
-$conf = [
+return [
     'serverName' => 'localhost',
     'dbName' => 'testovoe_zadanie',
     'userName' => 'root',
