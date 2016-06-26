@@ -21,19 +21,20 @@ class Routing {
         $actionName = 'action_' . $actionName;
 
         $fileWithModel = strtolower($modelName) . '.php';
-        $fileWithModelPath = 'models/' . $fileWithModel;
+        $fileWithModelPath = '../models/' . $fileWithModel;
         if (file_exists($fileWithModelPath)) {
             require_once $fileWithModel;
         }
 
         $fileWithController = strtolower($controllerName) . '.php';
-        $fileWithControllerPath = 'controllers/' . $fileWithController;
+        $fileWithControllerPath = '../controllers/' . $fileWithController;
+//        var_dump($fileWithControllerPath);die;
         if (file_exists($fileWithControllerPath)) {
             require_once $fileWithControllerPath;
         } else {
             echo 'ERROR! Контроллер не найден.';
         }
-        
+
         $controller = New $controllerName;
         $action = $actionName;
         if (method_exists($controller, $action)) {
