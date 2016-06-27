@@ -9,7 +9,7 @@ class View
             include __DIR__ . '/../../views/' . $content;
             include __DIR__ . '/../../views/template/footer.php';
         } else {
-            include 'views/' . $content;
+            include __DIR__ . '/../../views/' . $content;
         }
     }
 }

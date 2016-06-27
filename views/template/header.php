@@ -7,5 +7,3 @@
     <link href="assets/css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-<button class="btn btn-default navbar-right">Регистрация</button>

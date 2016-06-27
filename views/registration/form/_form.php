@@ -119,78 +119,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        <!-- направление-->
-                                            <h4 class="text-center">Направление</h4>
-                                            <div class="row">
-                                                <div class="control-group">
-                                                    <!-- direction -->
-                                                    <div class="col-md-12">
-                                                        <ul class="list-inline">
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Выбрать все</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Зерновые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Масличные</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бобовые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Продукты переработки</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бахчевые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Нишевые культуры</label>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        <!-- адресс -->
-                                            <h3 class="text-center">Данные для входа в систему</h3>
-                                            <div class="row">
-                                                <div class="control-group col-md-6">
-                                                    <!--  -->
-                                                    <label class="control-label"  for="region">Область</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="region" name="region" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- city-->
-                                                    <label class="control-label"  for="city">Населенный пункт</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="city" name="city" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- street -->
-                                                    <label class="control-label" for="street">Улица</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="street" name="street" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- house-->
-                                                    <label class="control-label" for="house">Дом</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="house" name="house" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- apartment-->
-                                                    <label class="control-label" for="apartment">Квартира</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="apartment" name="apartment" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include ('direct_address.php'); ?>
                                             <div class="col-md-12">
                                                 <p class="btn btn-lg btn-default pull-right private_btn">Далее</p>
                                             </div>
@@ -212,7 +141,7 @@
                                             <div class="control-group">
                                                 <!-- Button -->
                                                 <div class="controls">
-                                                    <button class="btn btn-lg btn-default pull-right private_btn">Регистрация</button>
+                                                    <button class="btn btn-lg btn-default pull-right">Регистрация</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -286,82 +215,11 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <!-- направление-->
-                                            <h4 class="text-center">Направление</h4>
-                                            <div class="row">
-                                                <div class="control-group">
-                                                    <!-- direction -->
-                                                    <div class="col-md-12">
-                                                        <ul class="list-inline">
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Выбрать все</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Зерновые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Масличные</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бобовые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Продукты переработки</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бахчевые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Нишевые культуры</label>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- адресс -->
-                                            <h3 class="text-center">Данные для входа в систему</h3>
-                                            <div class="row">
-                                                <div class="control-group col-md-6">
-                                                    <!--  -->
-                                                    <label class="control-label"  for="region">Область</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="region" name="region" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- city-->
-                                                    <label class="control-label"  for="city">Населенный пункт</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="city" name="city" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- street -->
-                                                    <label class="control-label" for="street">Улица</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="street" name="street" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- house-->
-                                                    <label class="control-label" for="house">Дом</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="house" name="house" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- apartment-->
-                                                    <label class="control-label" for="apartment">Квартира</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="apartment" name="apartment" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include ('direct_address.php'); ?>
                                             <div class="control-group">
                                                 <!-- Button -->
                                                 <div class="controls">
-                                                    <button class="btn btn-lg btn-default pull-right private_btn">Регистрация</button>
+                                                    <button class="btn btn-lg btn-default pull-right">Регистрация</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -372,7 +230,7 @@
                                             <h3 class="text-center">Данные для входа в систему</h3>
                                             <div class="row">
                                                 <div class="control-group col-md-6">
-                                                    <!-- INN -->
+                                                    <!-- edrpou -->
                                                     <label class="control-label"  for="edrpou">ЕДРПОУ*</label>
                                                     <div class="controls">
                                                         <input type="text" id="edrpou" name="edrpou" placeholder="" class="input-xlarge">
@@ -439,86 +297,14 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <!-- направление-->
-                                            <h4 class="text-center">Направление</h4>
-                                            <div class="row">
-                                                <div class="control-group">
-                                                    <!-- direction -->
-                                                    <div class="col-md-12">
-                                                        <ul class="list-inline">
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Выбрать все</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Зерновые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Масличные</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бобовые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Продукты переработки</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Бахчевые</label>
-                                                            </li>
-                                                            <li>
-                                                                <input type="checkbox" id="fio" name="direction" value="all" class="input-xlarge">
-                                                                <label class="control-label"  for="fio">Нишевые культуры</label>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- адресс -->
-                                            <h3 class="text-center">Данные для входа в систему</h3>
-                                            <div class="row">
-                                                <div class="control-group col-md-6">
-                                                    <!--  -->
-                                                    <label class="control-label"  for="region">Область</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="region" name="region" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- city-->
-                                                    <label class="control-label"  for="city">Населенный пункт</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="city" name="city" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- street -->
-                                                    <label class="control-label" for="street">Улица</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="street" name="street" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- house-->
-                                                    <label class="control-label" for="house">Дом</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="house" name="house" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- apartment-->
-                                                    <label class="control-label" for="apartment">Квартира</label>
-                                                    <div class="controls">
-                                                        <input type="text" id="apartment" name="apartment" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php include ('direct_address.php'); ?>
                                             <div class="control-group">
                                                 <!-- Button -->
                                                 <div class="controls">
-                                                    <button class="btn btn-lg btn-default pull-right private_btn">Регистрация</button>
+                                                    <button class="btn btn-lg btn-default pull-right">Регистрация</button>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </fieldset>
                                 </form>
                             </div>
