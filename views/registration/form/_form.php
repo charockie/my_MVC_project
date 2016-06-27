@@ -83,39 +83,28 @@
                                             <div class="row">
                                                 <div class="control-group col-md-6">
                                                     <!-- Email -->
-                                                    <label class="control-label"  for="Email">Email*</label>
+                                                    <label class="control-label"  for="p_Email">Email*</label>
                                                     <div class="controls">
-                                                        <input type="email" id="email" name="email" placeholder="" class="input-xlarge">
+                                                        <input type="email" id="p_email" name="p_email" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- Password-->
-                                                    <label class="control-label" for="password">Пароль*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- rePassword-->
-                                                    <label class="control-label" for="re_password">Пароль еще раз*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="re_password" name="re_password" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
+                                                <?php include ('password.php'); ?>
                                             </div>
                                         <!-- форма контактные данные-->
                                             <h4 class="text-center">Контактные данные</h4>
                                             <div class="row col-md-12">
                                                 <div class="control-group">
                                                     <!-- FIO-->
-                                                    <label class="control-label"  for="fio">Ф.И.О.*</label>
+                                                    <label class="control-label"  for="p_fio">Ф.И.О.*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="fio" name="fio" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="p_fio" name="p_fio" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
                                                 <div class="control-group">
                                                     <!-- Phone-->
-                                                    <label class="control-label"  for="tel">Контактный телефон*</label>
+                                                    <label class="control-label"  for="p_tel">Контактный телефон*</label>
                                                     <div class="controls">
-                                                        <input type="tel" id="tel" name="tel" placeholder="" class="input-xlarge">
+                                                        <input type="tel" id="p_tel" name="p_tel" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
                                             </div>
@@ -153,67 +142,55 @@
                                             <div class="row">
                                                 <div class="control-group col-md-6">
                                                     <!-- INN -->
-                                                    <label class="control-label"  for="INN">ИНН*</label>
+                                                    <label class="control-label"  for="b_inn">ИНН*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="inn" name="inn" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="b_inn" name="b_inn" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- Password-->
-                                                    <label class="control-label" for="password">Пароль*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-                                                    </div>
-
-                                                    <!-- rePassword-->
-                                                    <label class="control-label" for="re_password">Пароль еще раз*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="re_password" name="re_password" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
+                                                <?php include ('password.php'); ?>
                                             </div>
                                             <!-- форма контактные данные-->
                                             <h4 class="text-center">Контактные данные</h4>
                                             <div class="row col-md-12">
                                                 <div class="control-group col-md-6">
                                                     <!-- FLP-->
-                                                    <label class="control-label"  for="flp">Наименование Ф.Л.П.*</label>
+                                                    <label class="control-label"  for="b_flp">Наименование Ф.Л.П.*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="flp" name="flp" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="b_flp" name="b_flp" placeholder="" class="input-xlarge">
                                                     </div>
                                                     <!-- FIO contact -->
-                                                    <label class="control-label"  for="fio">Ф.И.О. контактного лица*</label>
+                                                    <label class="control-label"  for="b_fio">Ф.И.О. контактного лица*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="fio" name="fio" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="b_fio" name="b_fio" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
                                                 <div class="control-group col-md-6">
                                                     <!-- Phone-->
-                                                    <label class="control-label"  for="tel">Контактный телефон*</label>
+                                                    <label class="control-label"  for="b_tel">Контактный телефон*</label>
                                                     <div class="controls">
-                                                        <input type="tel" id="tel" name="tel" placeholder="" class="input-xlarge">
+                                                        <input type="tel" id="b_tel" name="b_tel" placeholder="" class="input-xlarge">
                                                     </div>
                                                     <!-- email-->
-                                                    <label class="control-label"  for="email">Email*</label>
+                                                    <label class="control-label"  for="b_email">Email*</label>
                                                     <div class="controls">
-                                                        <input type="email" id="email" name="email" placeholder="" class="input-xlarge">
+                                                        <input type="email" id="b_email" name="b_email" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
-                                                <div class="text-center">
-                                                    <ul class="list-inline">
-                                                        <li>
-                                                            <h4>Плательщик ПДВ:</h4>
-                                                        </li>
-                                                        <li>
-                                                            <input type="radio" id="pdv" name="pdv" value="1" class="input-xlarge">
-                                                            <label class="control-label"  for="pdv">Да</label>
-                                                        </li>
-                                                        <li>
-                                                            <input type="radio" id="pdv" name="pdv" value="0" class="input-xlarge">
-                                                            <label class="control-label"  for="pdv">Нет</label>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <h4>Плательщик ПДВ:</h4>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="b_pdv" name="b_pdv" value="1" class="input-xlarge">
+                                                        <label class="control-label"  for="b_pdv">Да</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="b_pdv" name="b_pdv" value="0" class="input-xlarge">
+                                                        <label class="control-label"  for="b_pdv">Нет</label>
+                                                    </li>
+                                                </ul>
                                             </div>
                                             <?php include ('direct_address.php'); ?>
                                             <div class="control-group">
@@ -231,71 +208,60 @@
                                             <div class="row">
                                                 <div class="control-group col-md-6">
                                                     <!-- edrpou -->
-                                                    <label class="control-label"  for="edrpou">ЕДРПОУ*</label>
+                                                    <label class="control-label"  for="o_edrpou">ЕДРПОУ*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="edrpou" name="edrpou" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="o_edrpou" name="o_edrpou" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
-                                                <div class="control-group col-md-6">
-                                                    <!-- Password-->
-                                                    <label class="control-label" for="password">Пароль*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                    <!-- rePassword-->
-                                                    <label class="control-label" for="re_password">Пароль еще раз*</label>
-                                                    <div class="controls">
-                                                        <input type="password" id="re_password" name="re_password" placeholder="" class="input-xlarge">
-                                                    </div>
-                                                </div>
+                                                <?php include ('password.php'); ?>
                                             </div>
                                             <!-- форма контактные данные-->
                                             <h4 class="text-center">Контактные данные</h4>
                                             <div class="row col-md-12">
                                                 <div class="control-group col-md-6">
                                                     <!-- FLP-->
-                                                    <label class="control-label"  for="organization">Организация*</label>
+                                                    <label class="control-label"  for="o_organization">Организация*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="organization" name="organization" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="o_organization" name="o_organization" placeholder="" class="input-xlarge">
                                                     </div>
                                                     <!-- FIO boss -->
-                                                    <label class="control-label"  for="boss">Ф.И.О. директора*</label>
+                                                    <label class="control-label"  for="o_boss">Ф.И.О. директора*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="boss" name="boss" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="o_boss" name="o_boss" placeholder="" class="input-xlarge">
                                                     </div>
                                                     <!-- FIO contact -->
-                                                    <label class="control-label"  for="fio">Ф.И.О. директора*</label>
+                                                    <label class="control-label"  for="o_fio">Ф.И.О. директора*</label>
                                                     <div class="controls">
-                                                        <input type="text" id="fio" name="fio" placeholder="" class="input-xlarge">
+                                                        <input type="text" id="o_fio" name="o_fio" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
                                                 <div class="control-group col-md-6">
                                                     <!-- Phone-->
-                                                    <label class="control-label"  for="tel">Контактный телефон*</label>
+                                                    <label class="control-label"  for="o_tel">Контактный телефон*</label>
                                                     <div class="controls">
-                                                        <input type="tel" id="tel" name="tel" placeholder="" class="input-xlarge">
+                                                        <input type="tel" id="o_tel" name="o_tel" placeholder="" class="input-xlarge">
                                                     </div>
                                                     <!-- email-->
-                                                    <label class="control-label"  for="email">Email*</label>
+                                                    <label class="control-label"  for="o_email">Email*</label>
                                                     <div class="controls">
-                                                        <input type="email" id="email" name="email" placeholder="" class="input-xlarge">
+                                                        <input type="email" id="o_email" name="o_email" placeholder="" class="input-xlarge">
                                                     </div>
                                                 </div>
-                                                <div class="text-center">
-                                                    <ul class="list-inline">
-                                                        <li>
-                                                            <h4>Плательщик ПДВ:</h4>
-                                                        </li>
-                                                        <li>
-                                                            <input type="radio" id="pdv" name="pdv" value="1" class="input-xlarge">
-                                                            <label class="control-label"  for="pdv">Да</label>
-                                                        </li>
-                                                        <li>
-                                                            <input type="radio" id="pdv" name="pdv" value="0" class="input-xlarge">
-                                                            <label class="control-label"  for="pdv">Нет</label>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <h4>Плательщик ПДВ:</h4>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="o_pdv" name="o_pdv" value="1" class="input-xlarge">
+                                                        <label class="control-label"  for="o_pdv">Да</label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" id="o_pdv" name="o_pdv" value="0" class="input-xlarge">
+                                                        <label class="control-label"  for="o_pdv">Нет</label>
+                                                    </li>
+                                                </ul>
                                             </div>
                                             <?php include ('direct_address.php'); ?>
                                             <div class="control-group">

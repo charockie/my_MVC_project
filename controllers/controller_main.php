@@ -16,6 +16,7 @@ class Controller_main extends controller
 
     public function action_registration()
     {
-        return 'hello';
+        var_dump($_POST);
+//        return 'hello';
     }
 }

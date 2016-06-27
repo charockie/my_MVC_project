@@ -1,15 +1,5 @@
-function jeneralValidation() {
-    $(".form-horizontal .js-active").validate({
-
-        submitHandler: function (form) {
-            console.log(1);
-            alert ('submit hendler');
-        },
-
-        invalidHandler: function (form) {
-            console.log(2);
-            alert ('invalid hendler');
-        },
+$(document).ready(function(){
+    $(".form-horizontal").validate({
 
         rules: {
 
@@ -17,13 +7,14 @@ function jeneralValidation() {
                 required: true,
                 minlength: 4,
                 maxlength: 16
+            },
+
+            house: {
+                required: true,
+                minlength: 5,
+                maxlength: 16
             }
 
-            // password: {
-            //     required: true,
-            //     minlength: 6,
-            //     maxlength: 16
-            // }
         },
 
         message: {
@@ -32,14 +23,15 @@ function jeneralValidation() {
                 required: "Это поле обязательно для заполнения",
                 minlength: "Логин должен быть минимум 4 символа",
                 maxlength: "Максимальное число символо - 16"
+            },
+
+            house: {
+                required: "Это поле обязательно для заполнения",
+                minlength: "Логин должен быть минимум 5 символа",
+                maxlength: "Максимальное число символо - 16"
             }
 
-            // password: {
-            //     required: "Это поле обязательно для заполнения",
-            //     minlength: "Пароль должен быть минимум 6 символа",
-            //     maxlength: "Пароль должен быть максимум 16 символов"
-            // }
-
         }
+
     });
-}
+});
